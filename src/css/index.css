@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background-color: rgb(44, 44, 44);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 80px;
+}
+
+html, body {
+  height: 100%; 
+}
+
+#root {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}

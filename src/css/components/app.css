@@ -1,0 +1,115 @@
+@charset "UTF-8";
+header {
+  background: linear-gradient(to top, rgb(37, 32, 32), rgb(22, 22, 22));
+  color: rgb(255, 255, 255);
+  padding: 1px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 22px;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: rgb(214, 214, 214);
+}
+nav ul {
+  text-align: center;
+  margin: 25px 0;
+  padding: 0 10px;
+}
+nav .linkRegister {
+  float: right;
+}
+nav .linkHome {
+  float: left;
+}
+nav li {
+  display: inline;
+  margin: 0 20px;
+  position: relative;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.4s ease-in-out;
+  padding-bottom: 3px;
+}
+nav li:hover {
+  border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(37, 32, 32), rgb(22, 22, 22));
+  box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 22px;
+}
+footer p {
+  display: inline-block;
+  margin-right: 50px;
+  font-weight: bold;
+}
+footer label {
+  font-weight: bold;
+  display: inline;
+}
+footer span {
+  font-style: italic;
+  margin-right: 50px;
+}
+footer div {
+  display: inline-block;
+}
+
+::-webkit-scrollbar {
+  width: 20px; /* Largura da barra de rolagem */
+  background-color: rgb(44, 44, 44); /* Cor de fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(68, 68, 68); /* Cor do "thumb" da barra de rolagem */
+  border-radius: 6px; /* Arredondar os cantos do "thumb" */
+  border: 3px solid rgb(44, 44, 44); /* Borda ao redor do "thumb" */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(102, 102, 102); /* Cor do "thumb" quando está em hover */
+}
+
+/* Estiliza a barra de rolagem para o navegador Firefox */
+scrollbar {
+  appearance: inherit;
+  -moz-appearance: none; /* Remove o estilo padrão */
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+scrollbar-thumb {
+  background-color: rgb(68, 68, 68); /* Cor do "thumb" da barra de rolagem */
+  border-radius: 6px; /* Arredondar os cantos do "thumb" */
+}
+
+scrollbar-thumb:hover {
+  background-color: rgb(102, 102, 102); /* Cor do "thumb" quando está em hover */
+}
+
+/*# sourceMappingURL=app.css.map */
