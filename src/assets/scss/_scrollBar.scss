@@ -1,0 +1,27 @@
+$colorBackScroll:rgb(44, 44, 44);
+$colorScroll:rgb(68, 68, 68);
+$colorScrollHover:rgb(102, 102, 102);
+
+::-webkit-scrollbar {
+    width: 20px; /* Largura da barra de rolagem */
+    background-color: $colorBackScroll; /* Cor de fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $colorScroll; /* Cor do "thumb" da barra de rolagem */
+    border-radius: 6px; /* Arredondar os cantos do "thumb" */
+    border: 3px solid $colorBackScroll; /* Borda ao redor do "thumb" */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: $colorScrollHover; /* Cor do "thumb" quando está em hover */
+}
+
+scrollbar-thumb {
+    background-color: $colorScroll; /* Cor do "thumb" da barra de rolagem */
+    border-radius: 6px; /* Arredondar os cantos do "thumb" */
+}
+
+scrollbar-thumb:hover {
+    background-color: $colorScrollHover; /* Cor do "thumb" quando está em hover */
+}

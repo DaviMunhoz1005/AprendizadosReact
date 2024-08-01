@@ -1,5 +1,3 @@
-import './../css/components/app.css';
-
 function Calculator() {
     return (
         <div>
