@@ -29,6 +29,20 @@ const Header = () => {
   );
 };
 
+const Footer = () => {
+  
+  return (
+    <footer>
+      <div className='location'>
+          <p>Localização: </p>
+          <a href="https://www.google.com/maps?q=-23.555613787723697, -46.44113263579451" target="_blank" rel='noreferrer'>
+          <img src={localThumbnail} alt="Imagem do Google Maps"/>
+        </a>
+      </div>
+    </footer>
+  );
+};
+
 function App() {
   return (
     <Router>
@@ -40,14 +54,7 @@ function App() {
             <Route path="/calculators" element={<Calculators />} />
           </Routes>
         </main>
-        <footer>
-          <div className='location'>
-            <p>Localização: </p>
-            <a href="https://www.google.com/maps?q=-23.555613787723697, -46.44113263579451" target="_blank" rel='noreferrer'>
-              <img src={localThumbnail} alt="Imagem do Google Maps"/>
-            </a>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </Router>
   );

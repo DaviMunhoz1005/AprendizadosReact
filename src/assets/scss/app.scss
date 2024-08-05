@@ -1,6 +1,39 @@
 @import "header", "footer", "scrollBar";
 
 main {
-    margin-left: 16px;
-    flex: 1;
+
+    .container {
+        padding: {
+            left: 32px;
+            right: 20px;
+        }
+    }
+
+    h1 {
+        font-style: oblique;
+        color: rgb(255, 255, 255);
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    p {
+        font: {
+            size: 22px;
+            family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        color: rgb(241, 227, 227);
+        text-align: justify;
+    }
+
+    li {
+        font: {
+            size: 25px;
+            style: oblique;
+        }
+        margin: {
+            top: 50px;
+            bottom: 10px;
+        }
+        color: rgb(255, 255, 255);
+    }
 }

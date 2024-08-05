@@ -1,0 +1,93 @@
+.basicCalculator, .cientificCalculator {
+    width: 300px;
+    height: 370px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    margin-bottom: 10px;
+}
+
+.input, .result {
+    font-size: 2em;
+    text-align: right;
+    margin-bottom: 10px;
+    border: 1px solid #ccc {
+        radius: 10px;
+    };
+    padding: 10px;
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+}
+
+.basicCalculator {
+
+    .buttons {
+        display: flex;
+        flex: content;
+        justify-content: space-between;
+    }
+    
+    .buttonsNumbers {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+        width: 300px;
+        height: 120px;
+    }
+}
+
+.cientificCalculator {
+
+    width: 330px;
+    height: 370px;
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .buttonsNumbers, .buttonsOperations {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        width: 150px; 
+        height: 120px; 
+        
+    }
+
+    .buttonsOperations {
+        margin-right: 30px;
+    }
+    
+    button {
+        font-size: 1.5em;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: #f0f0f0;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #e0e0e0;
+    }
+}
+
+button {
+    font-size: 1.5em;
+    padding: 15px;
+    border: none {
+        radius: 5px;
+    };
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
